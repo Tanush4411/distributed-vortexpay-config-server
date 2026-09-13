@@ -1,0 +1,9 @@
+server:
+  port: 9040
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vortexpay-vault-db
+
+vault:
+  master-key: T22MK14anT98i0ouHQ88W5qOf21cSzouHQ+ejXxre0s=
