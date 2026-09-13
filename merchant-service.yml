@@ -1,0 +1,9 @@
+server:
+  port: 9010
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vortexpay-merchant-db
+    
+jwt:
+  secret-key: sadanodiasdasndiasndfuabsfasnfuasifafubasyfa87f98fhadd89yasmd7asdh7a
