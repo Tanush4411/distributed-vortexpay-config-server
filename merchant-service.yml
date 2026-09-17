@@ -6,7 +6,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/vortexpay-merchant-db
     
 jwt:
-  secret-key: sadanodiasdasndiasndfuabsfasnfuasifafubasyfa87f98fhadd89yasmd7asdh7a
+  secret-key: asfd9asfdaoijfalkjl23u4oi5jlkjf98790890890ugojvakglsdfjn8yuh
 
 webhook:
   secret-encryption-key: c1pSNE1Rdm9JNE5UeDZvR3ptT2xTUGxsUG1ZeVptRzA=
