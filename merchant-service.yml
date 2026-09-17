@@ -9,4 +9,4 @@ jwt:
   secret-key: sadanodiasdasndiasndfuabsfasnfuasifafubasyfa87f98fhadd89yasmd7asdh7a
 
 webhook:
-  secret-encrytion-key: c1pSNE1Rdm9JNE5UeDZvR3ptT2xTUGxsUG1ZeVptRzA=
+  secret-encryption-key: c1pSNE1Rdm9JNE5UeDZvR3ptT2xTUGxsUG1ZeVptRzA=
