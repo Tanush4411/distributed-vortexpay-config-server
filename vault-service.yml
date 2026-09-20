@@ -5,5 +5,14 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/vortexpay-vault-db
 
+resilience4j:
+  thread-pool-bulkhead:
+    instances:
+      vault-card-processor:
+        core-thread-pool-size: 5
+        max-thread-pool-size: 10
+        queue-capacity: 20
+
+
 vault:
   master-key: T22MK14anT98i0ouHQ88W5qOf21cSzouHQ+ejXxre0s=
