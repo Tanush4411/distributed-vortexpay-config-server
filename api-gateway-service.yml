@@ -14,6 +14,12 @@ app:
     use-case:
       api-key:
         requests-per-minute: 200
+        
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
 
 spring:
   cloud:
