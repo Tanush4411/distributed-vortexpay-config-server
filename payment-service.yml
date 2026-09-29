@@ -37,4 +37,13 @@ resilience4j:
         max-attempts: 2
         wait-duration: 500ms
 
-  
+---
+
+spring:
+  config:
+    activate:
+      on-profile: k8s
+  datasource:
+    url: jdbc:postgresql://postgres.vortexpay-core.svc.cluster.local:5432/vortexpay-payment-db
+    username: payment_user
+    password: ${PAYMENT_DB_PASSWORD}
